@@ -60,6 +60,8 @@ Yeah, totally! It works completely fine with other mods (you can just import wit
 
 6. Done!
 
-At the top of all of your scripts, use `import "@sapiens/spjs"` to import the necessary types. Then, `export default myModule;` so Sapiens can access your code. 
+If you're using Typescript, at the top of all of your scripts, use `import "@sapiens/spjs"` to import the necessary types. Then, `export default myModule;` so Sapiens can access your code. 
+
+If you're using JavaScript, assign your module to `exports.default` to export it so Sapiens can access your code. 
 
 The runtime comes with built-in typings for Hammerstone, but does not contain the code itself. If you use these typings, **you must install Hammerstone**. 
